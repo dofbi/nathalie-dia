@@ -1,6 +1,6 @@
 ---
-title: "Markdown Formatting Demo"
-date: 2020-09-13T12:49:27+06:00
+title: "Théodore Chérif Monteil lance la coalition Alternative Citoyenne DIISOO"
+date: 2022-04-02T12:49:27+06:00
 featureImage: images/allpost/allPost-6.jpg
 postImage: images/single-blog/feature-image.jpg
 ---

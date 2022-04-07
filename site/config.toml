@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "fr-fr"
 paginate = 6
 theme = "portio"
-title = "Portio"
+title = "Théodore Monteil"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -54,7 +54,7 @@ weight = 4
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © Portio 2020"
+copyright = "All right reserved copyright © Théodore Monteil 2020"
 footerLogo = "images/contact/widget-logo.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
@@ -75,7 +75,7 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
-url = "https://www.facebook.com/aissatounathalie.dia.7"
+url = "https://www.facebook.com/TheodoreMonteil"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
@@ -87,5 +87,5 @@ url = "https://www.pinterest.com/"
 weight = 3
 [[params.social]]
 icon = "fa-twitter-square"
-url = "https://twitter.com/nathalie_dia"
+url = "https://twitter.com/"
 weight = 4
