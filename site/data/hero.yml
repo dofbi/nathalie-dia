@@ -1,11 +1,10 @@
----
 enable: true
 topTitle: Hello, Théodore Monteil
-content: >
-  # Here is my ambition for Senegal
+content: >-
+  # Here is my ambition for Senegal !
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
+
+  Enjoy team diversity and increase their networks among others people in various fields by
 buttonName: Contact me
 buttonURL: contact
 image: /images/hero/2960351.png
