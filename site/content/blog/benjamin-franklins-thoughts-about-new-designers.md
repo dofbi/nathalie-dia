@@ -1,8 +1,8 @@
 ---
 title: "4 pièges introduits dans le texte de lois…"
 date: 2021-12-11T12:49:27+06:00
-featureImage: images/allpost/allPost-7.jpg
-postImage: images/single-blog/feature-image.jpg
+featureImage: /images/allpost/allPost-7.jpg
+postImage: /images/single-blog/feature-image.jpg
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

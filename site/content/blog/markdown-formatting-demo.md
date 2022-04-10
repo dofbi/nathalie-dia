@@ -1,8 +1,8 @@
 ---
 title: "Théodore Chérif Monteil lance la coalition Alternative Citoyenne DIISOO"
 date: 2022-04-02T12:49:27+06:00
-featureImage: images/allpost/allPost-6.jpg
-postImage: images/single-blog/feature-image.jpg
+featureImage: /images/allpost/allPost-6.jpg
+postImage: /images/single-blog/feature-image.jpg
 ---
 
 This example Markdown file compliments of [markdown-it.github.io](https://markdown-it.github.io/)
