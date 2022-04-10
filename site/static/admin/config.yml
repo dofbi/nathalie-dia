@@ -25,6 +25,33 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Image", name: "image", widget: "image", required: false}
           - {label: "Vidéo Image", name: "videoThumb", widget: "image", required: false}
           - {label: "Lien Vidéo", name: videoURL, widget: string}
+      - file: "site/data/aboutSection.yml"
+        label: "À propos"
+        name: "about"
+        fields:
+          - {label: "Afficher", name: "enable", widget: "boolean", default: true}
+          - {label: Titre haut, name: topTitle, widget: string}
+          - {label: "Titre", name: "title", widget: 'markdown' }
+          - {label: "Texte", name: "content", widget: 'markdown' }
+          - {label: "Nom Bouton 1", name: button1Name, widget: string}
+          - {label: "Nom Bouton 2", name: button2Name, widget: string}
+          - {label: "Lien Bouton 1", name: button1Target, widget: string}
+          - {label: "Lien Bouton 2", name: button2Target, widget: string}
+          - {label: "Image", name: "image", widget: "image", required: false}
+      - file: "site/data/serviceSection.yml"
+        label: "Programmes"
+        name: "program"
+        fields:
+          - {label: "Afficher", name: "enable", widget: "boolean", default: true}
+          - {label: Titre haut, name: topTitle, widget: string}
+          - {label: "Titre", name: "title", widget: 'markdown' }
+          - label: "Programme"
+            name: "service"
+            collapsed: true
+            widget: "list"
+            fields:
+              - {label: "Texte", name: "content", widget: 'markdown' }
+              - {label: "Image", name: "image", widget: "image", required: false}
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Article" # Used in the UI, ie.: "New Post"
     folder: "site/content/blog" # The path to the folder where the documents are stored
