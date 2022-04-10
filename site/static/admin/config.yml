@@ -92,6 +92,30 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "Titre", name: "title", widget: 'markdown' }
               - {label: "Pourcentage", name: percent, widget: number, value_type: "int"}
+      - file: "site/data/testimonialSection.yml"
+        label: "Témoignages"
+        name: "testimonials"
+        fields:
+          - {label: "Afficher", name: "enable", widget: "boolean", default: true}
+          - {label: "Titre haut", name: topTitle, widget: string}
+          - {label: "Titre", name: "title", widget: 'markdown' }
+          - label: "Témoignage"
+            name: "testimonial"
+            collapsed: true
+            widget: "list"
+            fields:
+              - {label: "Nom", name: name, widget: string}
+              - {label: "Commentaire", name: "comment", widget: "text"}
+              - {label: Date, name: time, widget: string}
+              - {label: "Étoile", name: star, widget: number, value_type: "int"}
+      - file: "site/data/blogSection.yml"
+        label: "Articles"
+        name: "news"
+        fields:
+          - {label: "Afficher", name: "enable", widget: "boolean", default: true}
+          - {label: "Titre haut", name: topTitle, widget: string}
+          - {label: "Titre", name: "title", widget: 'markdown' }
+          - {label: "Lien Bouton", name: buttonTarget, widget: string}           
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Article" # Used in the UI, ie.: "New Post"
     folder: "site/content/blog" # The path to the folder where the documents are stored
