@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "about"
         fields:
           - {label: "Afficher", name: "enable", widget: "boolean", default: true}
-          - {label: Titre haut, name: topTitle, widget: string}
+          - {label: "Titre haut", name: topTitle, widget: string}
           - {label: "Titre", name: "title", widget: 'markdown' }
           - {label: "Texte", name: "content", widget: 'markdown' }
           - {label: "Nom Bouton 1", name: button1Name, widget: string}
@@ -43,7 +43,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "program"
         fields:
           - {label: "Afficher", name: "enable", widget: "boolean", default: true}
-          - {label: Titre haut, name: topTitle, widget: string}
+          - {label: "Titre haut", name: topTitle, widget: string}
           - {label: "Titre", name: "title", widget: 'markdown' }
           - label: "Programme"
             name: "service"
@@ -52,6 +52,46 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "Texte", name: "content", widget: 'markdown' }
               - {label: "Image", name: "image", widget: "image", required: false}
+      - file: "site/data/portfolioSection.yml"
+        label: "Gouvernance"
+        name: "governance"
+        fields:
+          - {label: "Afficher", name: "enable", widget: "boolean", default: true}
+          - {label: "Titre haut", name: topTitle, widget: string}
+          - {label: "Titre", name: "title", widget: 'markdown' }
+      - file: "site/data/resumeSection.yml"
+        label: "CV"
+        name: "resume"
+        fields:
+          - {label: "Afficher", name: "enable", widget: "boolean", default: true}
+          - {label: "Titre haut", name: topTitle, widget: string}
+          - {label: "Titre", name: "title", widget: 'markdown' }
+          - {label: "Nom Onglet 1", name: tab1Name, widget: string}
+          - {label: "Nom Onglet 2", name: tab2Name, widget: string}
+          - {label: "Cible Onglet 1", name: tab1Target, widget: string}
+          - {label: "Cible Onglet 2", name: tab2Target, widget: string}
+          - label: "CV"
+            name: "education"
+            collapsed: true
+            widget: "list"
+            fields:
+              - {label: "Texte", name: "content", widget: 'markdown' }
+              - {label: Date, name: time, widget: string}
+      - file: "site/data/skillSection.yml"
+        label: "Compétences"
+        name: "skills"
+        fields:
+          - {label: "Afficher", name: "enable", widget: "boolean", default: true}
+          - {label: "Titre haut", name: topTitle, widget: string}
+          - {label: "Texte", name: "content", widget: 'markdown' }
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - label: "Compétence"
+            name: "skill"
+            collapsed: true
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: 'markdown' }
+              - {label: "Pourcentage", name: percent, widget: number, value_type: "int"}
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Article" # Used in the UI, ie.: "New Post"
     folder: "site/content/blog" # The path to the folder where the documents are stored
